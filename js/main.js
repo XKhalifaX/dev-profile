@@ -125,11 +125,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (carouselImage && carouselPrev && carouselNext) {
         const carouselSlides = [
             {
-                src: "../images/project-website-1.jpg",
+                src: "images/project-website-1.jpg",
                 alt: "Website UI snapshot"
             },
             {
-                src: "../images/project-website-2.jpg",
+                src: "images/project-website-2.jpg",
                 alt: "Website feature screen"
             }
         ];
