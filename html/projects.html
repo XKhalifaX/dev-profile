@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects</title>
+	<link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="blog-posts.html">Blog Posts</a></li>
+				<li><a href="about-me.html">About Me</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="feed-stack">
+			<article class="bento-card feed-entry project-showcase-card">
+				<p class="card-label">Project 02</p>
+				<h1 class="project-title">Math Dungeon</h1>
+				<p class="project-subheadline">A browser-based math combat game where players solve timed equations to defeat monsters, manage health, and survive escalating difficulty.</p>
+				<div class="project-tech-tags">
+					<span class="project-tech-tag">HTML</span>
+					<span class="project-tech-tag">CSS</span>
+					<span class="project-tech-tag">JavaScript</span>
+					<span class="project-tech-tag">Game Logic</span>
+				</div>
+
+				<div class="project-media-hero">
+					<img src="../images/math-dungeon.jpg" alt="Math Dungeon gameplay preview" class="project-media-image">
+				</div>
+				<p class="project-media-caption">Equation combat preview, timer pressure, and health-bar feedback in action.</p>
+
+				<div class="project-win-grid">
+					<div class="project-stack-column">
+						<p class="project-section-label">Core Architecture</p>
+						<ul class="project-stack-list">
+							<li>Centralized game state for player health, monster health, current answer, and difficulty</li>
+							<li>Vanilla JS gameplay loop: generate equation → submit answer → apply damage → update UI</li>
+							<li>Difficulty-based monster generation and progression toward a final boss</li>
+							<li>Real-time UI updates for announcements, equation text, monster image, timer bar, and health bars</li>
+						</ul>
+					</div>
+					<div class="project-challenge-box">
+						<p class="project-challenge-label">The Technical Challenge</p>
+						<p>Balancing game feel across speed, difficulty, and feedback required careful tuning of timers, damage scaling, and progression logic. I solved this by structuring gameplay into reusable functions, updating state and UI in one loop, and using time-based damage/reward rules so faster correct answers feel meaningfully stronger without breaking difficulty pacing.</p>
+					</div>
+				</div>
+
+			</article>
+
+			<article class="bento-card feed-entry project-showcase-card">
+				<p class="card-label">Project 01</p>
+				<h1 class="project-title">CV Portfolio Website</h1>
+				<p class="project-subheadline">A recruiter-first personal website built to present work, technical thinking, and credibility in one fast scan.</p>
+				<div class="project-tech-tags">
+					<span class="project-tech-tag">HTML</span>
+					<span class="project-tech-tag">CSS</span>
+					<span class="project-tech-tag">JavaScript</span>
+					<span class="project-tech-tag">Responsive UI</span>
+				</div>
+
+				<div class="project-win-grid">
+					<div class="project-stack-column">
+						<p class="project-section-label">Core Architecture</p>
+						<ul class="project-stack-list">
+							<li>Multi-page structure with shared visual language</li>
+							<li>Reusable bento card and feed components</li>
+							<li>Vanilla JS for carousel and interaction logic</li>
+						</ul>
+					</div>
+					<div class="project-challenge-box">
+						<p class="project-challenge-label">The Technical Challenge</p>
+						<p>Maintaining consistency across multiple pages while iterating quickly on layout and content required reusable patterns and strict style reuse. I solved this by standardizing card structures and shared utility classes to minimize drift.</p>
+					</div>
+				</div>
+
+			</article>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 Khalifa Almheiri.</p>
+	</footer>
+</body>
+</html>
