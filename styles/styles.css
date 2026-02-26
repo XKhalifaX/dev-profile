@@ -465,6 +465,29 @@ main {
     margin: 0;
 }
 
+.blog-media-figure {
+    margin: 0.25rem 0 0;
+}
+
+.blog-media-image {
+    width: 100%;
+    border: 1px solid var(--border-soft);
+    border-radius: 12px;
+    max-height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+.feed-key-list {
+    margin-top: 0.3rem;
+    padding-left: 1.1rem;
+    color: var(--text-muted);
+}
+
+.feed-key-list li {
+    margin-bottom: 0.35rem;
+}
+
 .project-showcase-card {
     display: grid;
     gap: 0.85rem;

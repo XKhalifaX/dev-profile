@@ -19,35 +19,22 @@
     </header>
 
     <main>
-        <section class="feed-stack">
-            <article class="bento-card feed-entry">
-                <p class="card-label">Post 01</p>
-                <h2>[Post Title]</h2>
-                <p class="feed-meta">Date: [Month Day, Year] · Reading time: [X min]</p>
-                <p class="feed-muted">[Opening summary explaining what this post is about.]</p>
-                <div class="feed-details">
-                    <p><strong>Context:</strong> [Project/situation that led to this post.]</p>
-                    <p><strong>Decision:</strong> [Trade-off or technical choice you made.]</p>
-                    <p><strong>Outcome:</strong> [Result or lesson learned.]</p>
-                </div>
-            </article>
+        <section class="feed-stack" id="blog-posts-feed"></section>
 
-            <article class="bento-card feed-entry">
-                <p class="card-label">Post 02</p>
-                <h2>[Post Title]</h2>
-                <p class="feed-meta">Date: [Month Day, Year] · Reading time: [X min]</p>
-                <p class="feed-muted">[Opening summary explaining what this post is about.]</p>
-                <div class="feed-details">
-                    <p><strong>Context:</strong> [Project/situation that led to this post.]</p>
-                    <p><strong>Decision:</strong> [Trade-off or technical choice you made.]</p>
-                    <p><strong>Outcome:</strong> [Result or lesson learned.]</p>
-                </div>
-            </article>
-        </section>
+        <noscript>
+            <section class="feed-stack">
+                <article class="bento-card feed-entry">
+                    <p class="feed-muted">Enable JavaScript to view blog entries.</p>
+                </article>
+            </section>
+        </noscript>
     </main>
 
     <footer>
         <p>&copy; 2025 Khalifa Almheiri.</p>
     </footer>
+
+    <script src="js/blogsdata.js"></script>
+    <script src="js/blog-posts.js"></script>
 </body>
 </html>
