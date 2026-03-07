@@ -1,4 +1,23 @@
 const blogsData = [
+
+{
+
+    label: "Post 02 · Transition to ML-OPS",
+    title: "Learning ML Engineering with fraud detection",
+    date: "March 2026",
+    readingTime: "4 min",
+    summary: "My first session with Machine learning implemented into real world applications.",
+    paragraphs: [
+        "For this session ive started out first by understanding i wont learn fastest or the best by just reading books or doing math, but by diving top down first and understanding my way down.",
+        "Given my last experience with a modern tech stack for website development, this was expontentially easier to set up even though the stack is completely different.",
+        "It will be divided into three layers, The kitchen is where the Model is made and adjusted, the dining room is where it is displayed and monitored, and the manager layer is where it oversees automation and adjustment based on the triggers set around."
+    ],
+    challenge: "Understanding key terminologies and connecting the wiring, though i suspect it will take me way less time to finish this project than the PERN one.",
+    nextStep: "Training the initial Model and setting up the first display.",
+    keyLearnings: [
+        "ML-OPs terminolgies, Pands, Evidently AI, Prefect, Github actions, MLFLOW.",
+    ]
+},
 {
     label: "Post 01 · Unity learning",
     title: "Rocket Launcher Script and Prefab",
