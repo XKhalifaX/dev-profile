@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (heroTagline) {
-        const roles = ["Software Dev", "Aspiring ML-Ops Engineer", "Game Development Hobbyist"];
+        const roles = ["Software Dev", "Hello Moath Samman", "Game Development Hobbyist"];
         let roleIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
